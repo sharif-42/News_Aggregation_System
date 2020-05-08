@@ -1,6 +1,6 @@
 from django.db import models
 
-from news_processing.managers import NewsManager
+from news_processor.managers import NewsManager
 
 
 class News(models.Model):

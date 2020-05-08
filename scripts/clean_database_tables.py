@@ -12,7 +12,7 @@ def run():
     try:
         primary_conn = primary_db.cursor()
     except OperationalError as err:
-        print(err)
+        print("Error",err)
         return None
 
     try:
@@ -25,4 +25,4 @@ def run():
         primary_conn.close()
         primary_conn.close()
     except Exception as err:
-        print(err)
+        print("Final Exp",err)
