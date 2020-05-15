@@ -38,9 +38,11 @@ DEFAULT_APPS = [
 THIRD_PARTY_APPS = [
     'rest_framework',
     'django_extensions',
+    'import_export',
 ]
 LOCAL_APPS = [
     'news_processor',
+    'file_import_export',
 ]
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
