@@ -1,8 +1,11 @@
 from django.db import connections, OperationalError
 
-# Drop all tables from a given database
 """
-python manage.py runscript clean_database_tables
+    Drop all tables from a given database
+    Must Use PostgreSQL database
+    Must need django-extension package installed
+    Command: python manage.py runscript clean_database_tables
+    
 """
 
 
