@@ -1,7 +1,7 @@
 asgiref==3.2.7
 defusedxml==0.6.0
 diff-match-patch==20181111
-Django==3.0.6
+Django==3.0.7
 django-extensions==2.2.9
 django-import-export==2.1.0
 djangorestframework==3.11.0
